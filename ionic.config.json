@@ -1,0 +1,7 @@
+{
+  "name": "AppAnak",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

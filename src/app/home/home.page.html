@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Child Map</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div id="map"></div>
+  <ion-item>
+    <ion-label>Latitude: {{ currentLocation.lat }}</ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-label>Longitude: {{ currentLocation.lng }}</ion-label>
+  </ion-item>
+  <ion-button expand="full" (click)="sendLocation()">Send Location</ion-button>
+</ion-content>
